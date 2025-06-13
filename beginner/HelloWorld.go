@@ -1,19 +1,17 @@
 package main
 
+
 import (
 	"fmt"
 	"os"
 )
 
 func main() {
-	// print string
-	print("Hello Sam\n")
-
+	
 	// print numbers from 1 to 100
 	for i := 1; i <= 100; i++ {
 		fmt.Println(i)
 	}
-
 	// wait for user input and echo it
 	fmt.Print("Enter text: ")
 	var input string
@@ -27,4 +25,5 @@ func main() {
 	} else {
 		fmt.Println(string(data))
 	}
+
 }
