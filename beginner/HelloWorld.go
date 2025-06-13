@@ -11,9 +11,11 @@ func main() {
 		fmt.Println(i)
 	}
 
+
 	// wait for user input and echo it
 	fmt.Print("Enter text: ")
 	var input string
 	fmt.Scanln(&input)
 	fmt.Printf("You entered: %s\n", input)
+
 }
